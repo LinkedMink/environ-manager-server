@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\**" />
+    <Content Remove="wwwroot\**" />
+    <EmbeddedResource Remove="wwwroot\**" />
+    <None Remove="wwwroot\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.5" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\LinkedMink.Data.Domain.EnvironManager.PostgreSql\LinkedMink.Data.Domain.EnvironManager.PostgreSql.csproj" />
+    <ProjectReference Include="..\LinkedMink.Data.Domain.EnvironManager.SqlServer\LinkedMink.Data.Domain.EnvironManager.SqlServer.csproj" />
+    <ProjectReference Include="..\LinkedMink.Net.Message\LinkedMink.Net.Message.csproj" />
+    <ProjectReference Include="..\LinkedMink.Web.EnvironManager\LinkedMink.Web.EnvironManager.csproj" />
+    <ProjectReference Include="..\LinkedMink.Web.Infastructure\LinkedMink.Web.Infastructure.csproj" />
+  </ItemGroup>
+
+</Project>

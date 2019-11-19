@@ -1,0 +1,17 @@
+{
+  "Users": [
+    {
+      "Username": "sample@eta1.linkedmink.space",
+      "Email": "sample@eta1.linkedmink.space",
+      "Password": "TempPass*1"
+    }
+  ],
+  "Devices": [
+    {
+      "Name": "Grow Tank 1",
+      "Description": "The system located upstairs",
+      "Host": "eta2.linkedmink.space",
+      "Port": 8080
+    }
+  ]
+}

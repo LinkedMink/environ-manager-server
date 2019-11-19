@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77CA7C87-7022-4559-9D3B-A0DC3755ECDC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Base", "LinkedMink.Base\LinkedMink.Base.csproj", "{726E3A0A-6470-4511-A203-CB3FDDF49D01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Data.Base", "LinkedMink.Data.Base\LinkedMink.Data.Base.csproj", "{DDE1F96F-8730-4B61-A10D-AABFAEC2CB45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Data.Domain.EnvironManager", "LinkedMink.Data.Domain.EnvironManager\LinkedMink.Data.Domain.EnvironManager.csproj", "{B2A4143B-0D74-4522-B418-57FE4358852C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Data.Domain.EnvironManager.PostgreSql", "LinkedMink.Data.Domain.EnvironManager.PostgreSql\LinkedMink.Data.Domain.EnvironManager.PostgreSql.csproj", "{6923CF34-F59C-40E1-9EBE-632FA92C730D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Net.Message", "LinkedMink.Net.Message\LinkedMink.Net.Message.csproj", "{4624DB7B-51DF-4DA0-B679-B986A576C27E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Processor", "LinkedMink.Processor\LinkedMink.Processor.csproj", "{994E701B-8CCC-4AD7-B8B9-8D2B886F07E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Processor.EnvironManager", "LinkedMink.Processor.EnvironManager\LinkedMink.Processor.EnvironManager.csproj", "{34107A76-0232-4822-AE05-019F05AC9AE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Processor.EnvironManager.Tools", "LinkedMink.Processor.EnvironManager.Tools\LinkedMink.Processor.EnvironManager.Tools.csproj", "{AEB3A934-1C03-4208-B0DC-5B961F490D5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Web.Infastructure", "LinkedMink.Web.Infastructure\LinkedMink.Web.Infastructure.csproj", "{976BA63C-F8BD-4CF6-9AAA-3D5554693086}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Web.Api.EnvironManager", "LinkedMink.Web.Api.EnvironManager\LinkedMink.Web.Api.EnvironManager.csproj", "{B4984FE0-4C32-412A-866B-5EBEAA5B62B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Web.EnvironManager", "LinkedMink.Web.EnvironManager\LinkedMink.Web.EnvironManager.csproj", "{48A0BD76-6E3A-468E-906F-A023C7669837}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedMink.Data.Domain.EnvironManager.SqlServer", "LinkedMink.Data.Domain.EnvironManager.SqlServer\LinkedMink.Data.Domain.EnvironManager.SqlServer.csproj", "{B35C6C0A-EB78-4885-95B4-822ACEB24F11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{726E3A0A-6470-4511-A203-CB3FDDF49D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726E3A0A-6470-4511-A203-CB3FDDF49D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726E3A0A-6470-4511-A203-CB3FDDF49D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726E3A0A-6470-4511-A203-CB3FDDF49D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE1F96F-8730-4B61-A10D-AABFAEC2CB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE1F96F-8730-4B61-A10D-AABFAEC2CB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE1F96F-8730-4B61-A10D-AABFAEC2CB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE1F96F-8730-4B61-A10D-AABFAEC2CB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A4143B-0D74-4522-B418-57FE4358852C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A4143B-0D74-4522-B418-57FE4358852C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A4143B-0D74-4522-B418-57FE4358852C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A4143B-0D74-4522-B418-57FE4358852C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6923CF34-F59C-40E1-9EBE-632FA92C730D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6923CF34-F59C-40E1-9EBE-632FA92C730D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6923CF34-F59C-40E1-9EBE-632FA92C730D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6923CF34-F59C-40E1-9EBE-632FA92C730D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4624DB7B-51DF-4DA0-B679-B986A576C27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4624DB7B-51DF-4DA0-B679-B986A576C27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4624DB7B-51DF-4DA0-B679-B986A576C27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4624DB7B-51DF-4DA0-B679-B986A576C27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994E701B-8CCC-4AD7-B8B9-8D2B886F07E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994E701B-8CCC-4AD7-B8B9-8D2B886F07E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994E701B-8CCC-4AD7-B8B9-8D2B886F07E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994E701B-8CCC-4AD7-B8B9-8D2B886F07E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34107A76-0232-4822-AE05-019F05AC9AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34107A76-0232-4822-AE05-019F05AC9AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34107A76-0232-4822-AE05-019F05AC9AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34107A76-0232-4822-AE05-019F05AC9AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB3A934-1C03-4208-B0DC-5B961F490D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB3A934-1C03-4208-B0DC-5B961F490D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB3A934-1C03-4208-B0DC-5B961F490D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB3A934-1C03-4208-B0DC-5B961F490D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976BA63C-F8BD-4CF6-9AAA-3D5554693086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976BA63C-F8BD-4CF6-9AAA-3D5554693086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976BA63C-F8BD-4CF6-9AAA-3D5554693086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976BA63C-F8BD-4CF6-9AAA-3D5554693086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4984FE0-4C32-412A-866B-5EBEAA5B62B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4984FE0-4C32-412A-866B-5EBEAA5B62B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4984FE0-4C32-412A-866B-5EBEAA5B62B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4984FE0-4C32-412A-866B-5EBEAA5B62B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A0BD76-6E3A-468E-906F-A023C7669837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A0BD76-6E3A-468E-906F-A023C7669837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A0BD76-6E3A-468E-906F-A023C7669837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A0BD76-6E3A-468E-906F-A023C7669837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35C6C0A-EB78-4885-95B4-822ACEB24F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35C6C0A-EB78-4885-95B4-822ACEB24F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35C6C0A-EB78-4885-95B4-822ACEB24F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35C6C0A-EB78-4885-95B4-822ACEB24F11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAE8648E-37E9-419D-83C2-5D8ACE3455DC}
+	EndGlobalSection
+EndGlobal

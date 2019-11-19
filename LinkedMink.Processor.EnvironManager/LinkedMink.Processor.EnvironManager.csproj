@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LinkedMink.Data.Domain.EnvironManager.PostgreSql\LinkedMink.Data.Domain.EnvironManager.PostgreSql.csproj" />
+    <ProjectReference Include="..\LinkedMink.Data.Domain.EnvironManager.SqlServer\LinkedMink.Data.Domain.EnvironManager.SqlServer.csproj" />
+    <ProjectReference Include="..\LinkedMink.Processor\LinkedMink.Processor.csproj" />
+  </ItemGroup>
+
+</Project>
